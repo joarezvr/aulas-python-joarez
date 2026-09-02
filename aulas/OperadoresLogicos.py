@@ -1,7 +1,7 @@
-#OPERADORES LOGICOS
+from turtledemo import planet_and_moon
 
-#ATRIBUIDORES OU OPERADORES DE ATRIBUIÇÃO
- = -> ATRIBUI UM VALOR -> VARIAVEL = 10
- ! -> NÃO, NOT, CONTRARIO
+nome = input("Digite seu nome: ")
+idade = input("Digite sua idade: ")
+plano_saude = bool(input("Você tem plano de saude: "))
 
-#COMPARAÇÃO
+print("Ola {}, você é um tem {} anos e "
