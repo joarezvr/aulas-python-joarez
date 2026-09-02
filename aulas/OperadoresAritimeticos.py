@@ -3,21 +3,16 @@
 numero1 = 40
 numero2 = 15
 
-
 #SOMA
-
 soma = numero1 + numero2
 
 #SUBTRACAO
-
 subtracao  = numero1 - numero2
 
 #MULTIPLICACAO
-
 multiplicacao = numero1 * numero2
 
 #DIVISAO
-
 divisao = numero1 / numero2
 resto = numero1 % numero2
 
