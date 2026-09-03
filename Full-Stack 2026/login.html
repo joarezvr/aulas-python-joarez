@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LH Games - Login</title>
+    <!-- Bootstrap 5 CSS CDN -->
+    <link href="https://jsdelivr.net" rel="stylesheet">
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body class="bg-light">
+
+    <!-- MENU / NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" alt="LH Games Logo" height="40">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- FORMULÁRIO DE LOGIN -->
+    <div class="container d-flex justify-content-center align-items-center" style="min-height: 75vh;">
+        <div class="card p-4 shadow" style="width: 100%; max-width: 400px;">
+            <h3 class="text-center mb-4">Login</h3>
+            <form id="formLogin">
+                <div class="mb-3">
+                    <label for="usuario" class="form-label">Nome / Usuário:</label>
+                    <input type="text" class="form-control" id="usuario" placeholder="Insira o seu usuário" required>
+                </div>
+                <div class="mb-3">
+                    <label for="senha" class="form-label">Senha:</label>
+                    <input type="password" class="form-control" id="senha" placeholder="Insira a sua senha" required>
+                </div>
+                <button type="submit" class="btn btn-success w-100 mt-2">Login</button>
+            </form>
+            <div class="text-center mt-3">
+                <p class="small">Não é cadastrado ainda? <a href="#" class="text-success" id="btnCadastro">Cadastre-se</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- RODAPÉ -->
+    <footer class="bg-dark text-white text-center py-4 fixed-bottom">
+        <div class="container">
+            <p class="mb-0">Desenvolvimento por LH Games</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle & jQuery CDN -->
+    <script src="https://jsdelivr.net"></script>
+    <script src="https://jquery.com"></script>
+    <!-- Scripts Internos -->
+    <script src="js/script.js"></script>
+    <script src="js/jquery-script.js"></script>
+</body>
+</html>
