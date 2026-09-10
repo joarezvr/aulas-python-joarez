@@ -1,7 +1,7 @@
-contagem = 10
+contador = 10
 
-while contagem >0 :
-    print(contagem)
-    contagem -= 1
+while contador >= 1:
+    print(contador)
+    contador -= 1
 
 print("Foguete lançado!")

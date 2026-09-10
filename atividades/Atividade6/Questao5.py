@@ -1,7 +1,6 @@
-numero = int(input("Digite um número para ver a tabuada: "))
+numero = int(input("Digite um número inteiro para ver a tabuada: "))
 contador = 1
 
 while contador <= 10:
-    resultado = numero * contador
-    print(f"{numero} x {contador} = {resultado}")
+    print(f"{numero} x {contador} = {numero * contador}")
     contador += 1
