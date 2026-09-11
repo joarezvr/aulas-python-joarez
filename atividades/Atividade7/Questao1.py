@@ -12,7 +12,7 @@ while opcao == "S":
             cont += 1
             if cont >= 4:
                 opcao=input("Dseja cadastrar outro funcionario? Digite 'S' para continuar ou 'N' para finalizar ")
-            elif opcao == "N":
+        elif opcao == "N":
             print("Abaixo está a lista de funcionarios cadastrados, demitidos e quem recebera o aumento")
             print("Lista de funcionários")
             for f in lista_funcionario:
